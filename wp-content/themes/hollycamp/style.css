@@ -1,0 +1,30 @@
+/*
+Theme Name: Holly-Camp
+Text Domain: hollycamp
+Version: 0.1
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Author: JeremT8
+*/
+
+.formatted .blocks-gallery-grid {
+	display: flex;
+	margin-left: 0;
+}
+
+.formatted .blocks-gallery-grid li {
+	padding-left: 0;
+}
+
+.formatted .blocks-gallery-grid li::before {
+	display: none;
+}
+
+.formatted .blocks-gallery-grid li:last-child {
+	margin-bottom: 16px!important;
+}
+
+.formatted .wp-block-buttons {
+	margin-bottom: 1.05em;
+}
+

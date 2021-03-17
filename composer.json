@@ -1,0 +1,27 @@
+{
+    "name": "etudiant/holly-camp",
+    "authors": [
+        {
+            "name": "JeremT8",
+            "email": "jeremytilletpro@gmail.com"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^5.7",
+        "wpackagist-theme/twentytwenty": "^1.7",
+        "wpackagist-theme/twentytwentyone": "^1.2",
+        "wpackagist-plugin/advanced-custom-fields": "^5.9"
+    },
+    
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org",
+            "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+        }
+    ]
+}
